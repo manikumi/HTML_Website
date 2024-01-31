@@ -5,4 +5,4 @@ FROM httpd:latest
 MAINTAINER "saimanishkumar11@gmail.com"
 
 #copying the project files from target to destination httpd container directory
-cp ./ /usr/local/apache2/htdocs
+COPY ./ /usr/local/apache2/htdocs
